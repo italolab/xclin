@@ -14,6 +14,8 @@ O XCLIN também suporta controle de fluxo de caixa, bem como, usuários e restri
 
 # Rodando o sistema
 
+> Atenção: Esse sistema só funciona com o Java 17, não funciona em versões posteriores!
+
 O sistema foi feito com uso das seguintes tecnologias:
 
 * Java 17
@@ -28,9 +30,7 @@ Foram utilizadas também as seguintes tecnologias:
 * VSCode
 * npm
 * mvn
-
-> Atenção: Esse sistema só funciona com o Java 17, não funciona em versões posteriores!
-
+  
 ## O banco de dados
 
 Para fazer o sistema funcionar é necessário criar e popular o banco de dados. Para isso, esteja certo de ter em seu computador o PostgreSQL Server 15.2 em execução e o cliente PSQL acessível pela linha de comandos e, então, execute o seguinte:
