@@ -41,16 +41,16 @@ create database xclin;
 \c xclin	
   ```
 
-Feito isso, estando ainda na pasta raiz do projeto, procure pelo arquivo "xclin.sql". Esse arquivo deve ser importado para popular o banco de dados criado com nome "xclin".
+Feito isso, estando ainda na pasta raiz do projeto, procure pelo arquivo "recursos/xclin_20-07-2023.sql". Esse arquivo deve ser importado para popular o banco de dados criado com nome "xclin".
 
 ```
-\i xclin.sql
+\i recursos/xclin_20-07-2023.sql
 ```
 
 Ou faça o seguinte:
 
 ```
-psql -U postgres xclin < xclin.sql
+psql -U postgres xclin < recursos/xclin_20-07-2023.sql
 ```
 
 ## Crie as seguintes variáveis de ambiente:
